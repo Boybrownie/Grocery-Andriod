@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.GroceryApp" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item> <!-- #1976D2 -->
+        <item name="colorPrimaryVariant">@color/primaryVariant</item> <!-- #0D47A1 -->
+        <item name="colorOnPrimary">@color/onPrimary</item> <!-- #FFFFFF -->
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary</item> <!-- #FFC107 -->
+        <item name="colorSecondaryVariant">@color/secondaryVariant</item> <!-- #FFA000 -->
+        <item name="colorOnSecondary">@color/onSecondary</item> <!-- #000000 -->
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@drawable/app_bg</item>
+    </style>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.GroceryApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Payment Details"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/et_card_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Card Number"
+        android:inputType="number"
+        android:padding="12dp"
+        android:background="@drawable/edit_text_bg"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/et_cvv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CVV"
+        android:inputType="number"
+        android:padding="12dp"
+        android:background="@drawable/edit_text_bg"
+        android:textColor="@color/black"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/et_expiry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Expiry Date (MM/YY)"
+        android:inputType="text"
+        android:padding="12dp"
+        android:background="@drawable/edit_text_bg"
+        android:textColor="@color/black"
+        android:layout_marginTop="8dp"/>
+</LinearLayout>

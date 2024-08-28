@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="15dp"
+    tools:context=".customer.CustomerShopActivity">
+
+    <!-- RecyclerView to show cart items -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_view_cart_items"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:paddingBottom="20dp"
+        tools:listitem="@layout/product_child_layout" />
+
+    <!-- TextView to display total price -->
+    <TextView
+        android:id="@+id/tv_total_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Price: ₹0"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp" />
+
+    <!-- ImageView to show cart empty image -->
+    <ImageView
+        android:id="@+id/iv_cart_empty"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_weight="0.3"
+        android:src="@drawable/ic_cart_empty"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:scaleType="centerInside" />
+
+    <!-- Button to proceed to checkout -->
+    <Button
+        android:id="@+id/btn_placer_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pay and place order" />
+
+</LinearLayout>

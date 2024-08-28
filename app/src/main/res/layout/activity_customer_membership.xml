@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".customer.CustomerMembershipActivity">
+
+    <!-- TextView to show the membership expiry date -->
+    <TextView
+        android:id="@+id/tvMembershipExpiry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Membership Expires On: "
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"/>
+
+    <!-- TextView to show membership advantages -->
+    <TextView
+        android:id="@+id/tvMembershipBenefits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="As a member, you enjoy the following benefits:"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"/>
+
+    <!-- TextView to list the benefits -->
+    <TextView
+        android:id="@+id/tvMembershipDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="• 10% off on all products\n• Free delivery on all orders\n• Exclusive member-only discounts"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"/>
+
+    <!-- TextView to show some stats about the membership -->
+    <TextView
+        android:id="@+id/tvMembershipStats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Join over 10,000 satisfied members!"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Button to buy membership -->
+    <Button
+        android:id="@+id/btnBuyMembership"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buy Membership"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"/>
+
+    <!-- Button to cancel membership -->
+    <Button
+        android:id="@+id/btnCancelMembership"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel Membership"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"/>
+
+</LinearLayout>

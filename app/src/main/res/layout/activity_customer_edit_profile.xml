@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Icon and explanatory text -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="24dp">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_edit_profile"
+                android:layout_marginEnd="8dp"
+                android:contentDescription="Profile Update Icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Update your profile details"
+                android:textSize="18sp"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <!-- Name Field -->
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/bg_rounded_input_field"
+            android:textColor="@color/black"
+            android:textColorHint="@color/grey" />
+
+        <!-- Email Field -->
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:textSize="16sp"
+            android:inputType="textEmailAddress"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/bg_rounded_input_field"
+            android:textColor="@color/black"
+            android:textColorHint="@color/grey" />
+
+        <!-- Password Field -->
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/bg_rounded_input_field"
+            android:textColor="@color/black"
+            android:textColorHint="@color/grey" />
+
+        <!-- Street Address Field -->
+        <EditText
+            android:id="@+id/et_street_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Street Address"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/bg_rounded_input_field"
+            android:textColor="@color/black"
+            android:textColorHint="@color/grey" />
+
+        <!-- City Field -->
+        <EditText
+            android:id="@+id/et_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="City"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/bg_rounded_input_field"
+            android:textColor="@color/black"
+            android:textColorHint="@color/grey" />
+
+        <!-- ZIP Code Field -->
+        <EditText
+            android:id="@+id/et_zip_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ZIP Code"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/bg_rounded_input_field"
+            android:textColor="@color/black"
+            android:textColorHint="@color/grey" />
+
+        <!-- Country Field (Disabled, Default to Canada) -->
+        <EditText
+            android:id="@+id/et_country"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Country"
+            android:text="Canada"
+            android:textSize="16sp"
+            android:enabled="false"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/bg_rounded_input_field"
+            android:textColor="@color/black"
+            android:textColorHint="@color/grey" />
+
+        <!-- Save Button -->
+        <Button
+            android:id="@+id/btn_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/primary"
+            android:text="Update"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:layout_marginTop="24dp" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="4dp"
+    tools:context=".admin.AdminDashboardActivity">
+
+    <!-- RecyclerView to show cart items -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_view_orders_items"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.7"
+        tools:listitem="@layout/order_child_layout" />
+
+    <!-- ImageView to show cart empty image -->
+    <ImageView
+        android:id="@+id/iv_cart_empty"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.3"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_cart_empty"
+        android:visibility="gone" />
+
+</LinearLayout>

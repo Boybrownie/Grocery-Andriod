@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/grey"
+    android:layout_marginTop="10dp"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <!-- Horizontal Layout for Product Image and Details -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical">
+
+        <!-- Product Image -->
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/cv_productImage"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/placeholder_image" />
+
+        <!-- Product Title and Price -->
+        <LinearLayout
+            android:id="@+id/ll_productDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="16dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tv_productTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Product Title"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_productPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="₹100"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:layout_marginTop="4dp" />
+
+            <!-- New TextView for Additional Information -->
+            <TextView
+                android:id="@+id/tv_offerPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Additional Information"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:layout_marginTop="4dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Add to Cart Button -->
+    <Button
+        android:id="@+id/iv_addToCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:padding="8dp"
+        android:text="Add To Cart"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/primary" />
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Original Colors -->
+    <color name="purple_200">#A5D6A7</color> <!-- Light green -->
+    <color name="purple_500">#4CAF50</color> <!-- Green -->
+    <color name="purple_700">#388E3C</color> <!-- Dark green -->
+    <color name="teal_200">#81C784</color> <!-- Light green -->
+    <color name="teal_700">#388E3C</color> <!-- Dark green -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Text Colors -->
+    <color name="textColor">#FFFFFFFF</color> <!-- White -->
+    <color name="textColor2">#FF000000</color> <!-- Black -->
+
+    <!-- Custom Colors -->
+    <color name="light_blue">#A5D6A7</color> <!-- Light green -->
+
+    <color name="blue">#4CAF50</color> <!-- Green -->
+    <color name="grey">#9E9E9E</color> <!-- Grey -->
+    <color name="dark_grey">#616161</color> <!-- Dark grey -->
+    <color name="darker_grey">#424242</color> <!-- Darker grey -->
+
+    <!-- Background Colors -->
+    <color name="background2">#FFFFFFFF</color> <!-- White -->
+    <color name="background3">#E0E0E0</color> <!-- Light grey -->
+    <color name="background4">#C8E6C9</color> <!-- Light green -->
+    <color name="background5">#A5D6A7</color> <!-- Light green -->
+    <color name="background6">#FFFFFF</color> <!-- White -->
+
+    <!-- Additional Colors -->
+    <color name="textGreen">#388E3C</color> <!-- Dark green -->
+    <color name="light_pink">#81C784</color> <!-- Light green -->
+    <color name="light_green">#66BB6A</color> <!-- Light green -->
+    <color name="light_yellow">#DCE775</color> <!-- Light yellow-green -->
+    <color name="light_purple">#AED581</color> <!-- Light green -->
+    <color name="light_orange">#FFB74D</color> <!-- Light orange -->
+    <color name="light_red">#E57373</color> <!-- Light red -->
+    <color name="dark_green">#558B2F</color> <!-- Dark green -->
+
+    <!-- Primary and Secondary Colors -->
+    <color name="primary">#388E3C</color> <!-- Dark green -->
+    <color name="primaryVariant">#2E7D32</color> <!-- Darker green -->
+    <color name="onPrimary">#FFFFFF</color> <!-- White text/icons on primary -->
+    <color name="secondary">#8BC34A</color> <!-- Light green -->
+    <color name="secondaryVariant">#689F38</color> <!-- Dark green -->
+    <color name="onSecondary">#000000</color> <!-- Black text/icons on secondary -->
+    <color name="background">#F1F8E9</color> <!-- Very light green background -->
+
+
+    <!-- Define your colors here -->
+    <color name="light_gray">#F0F0F0</color>
+    <color name="dark_gray">#B0B0B0</color>
+
+</resources>
